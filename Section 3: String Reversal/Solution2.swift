@@ -16,3 +16,7 @@ func reverse(_ input : String) -> String {
   }
   return result
 }
+
+print(reverse("abcd") == "dcba")
+print(reverse("  abcd") == "dcba  ")
+print(reverse("") == "")
